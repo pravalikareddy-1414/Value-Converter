@@ -1,0 +1,95 @@
+html,
+body {
+  height: 100%; /* Ensure the HTML and body take up full height of the viewport */
+  margin: 0; /* Remove default margin */
+  display: flex;
+  justify-content: center; /* Center content horizontally */
+  align-items: center; /* Center content vertically */
+  flex-direction: column; /* Arrange items in a column */
+  justify-content: center; /* Center content vertically */
+  background-color: #f0f0f0; /* Background color */
+  background-color: #f0f0f0; /* Background color for visibility */
+}
+
+.container {
+  width: 550px;
+  height: 285px;
+  gap: 0px;
+  opacity: 0px;
+  background: #6943ff;
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  color: red;
+  width: 448.4px;
+  height: 38px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Inter;
+  font-size: 28px;
+  font-weight: 800;
+  line-height: 38px;
+  letter-spacing: -0.03em;
+  text-align: center;
+  color: #ffffff;
+}
+.userinput {
+  display: flex;
+  justify-content: center;
+}
+input {
+  width: 117px;
+  height: 83px;
+  top: 101px;
+  left: 217px;
+  gap: 0px;
+  border-radius: 5px 0px 0px 0px;
+  border: 2px 0px 0px 0px;
+  opacity: 0px;
+  border: 2px solid #b295ff;
+  margin-top: 20px;
+  font-family: Inter;
+  font-size: 58px;
+  font-weight: 800;
+  line-height: 24.39px;
+  text-align: center;
+  background: #ffffff;
+}
+.userbutton {
+  display: flex;
+  justify-content: center;
+}
+button {
+  width: 117px;
+  height: 42px;
+  top: 209px;
+  left: 217px;
+  padding: 9px 27.5px 9px 27.5px;
+  gap: 0px;
+  border-radius: 5px 0px 0px 0px;
+  opacity: 0px;
+  margin-top: 25px;
+}
+
+.box {
+  width: 500px;
+  height: 108.57px;
+  top: 321px;
+  left: 25px;
+  gap: 18.72px;
+  border-radius: 4.68px 0px 0px 0px;
+  opacity: 0px;
+  background: #ffffff;
+  margin-top: 10px;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 20px;
+  text-align: center;
+  color: #5a537b;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
